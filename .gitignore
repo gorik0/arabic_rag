@@ -1,0 +1,43 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment folders
+env/
+venv/
+.idea/
+
+# Logs and debugging files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.~backup
+
+# Test outputs
+coverage.xml
+htmlcov/
+.cache/
+pytest_cache/
+
+# Database and migrations
+db.sqlite3
+*.db
+
+# Generated files
+*.schema.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker-related files
+*.env
+.env.*
+docker-compose.override.yml
+
+# Miscellaneous
+.vscode/
