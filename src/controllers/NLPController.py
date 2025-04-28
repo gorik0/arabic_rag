@@ -1,5 +1,6 @@
-from .BaseController import BaseController
-from models.db_schemes import Project, DataChunk
+from models.db_schemes.minirag.schemes.data_chunk import DataChunk
+from models.db_schemes.minirag.schemes.project import Project
+from . import BaseController
 from stores.llm.LLMEnums import DocumentTypeEnum
 from typing import List
 import json
