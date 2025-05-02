@@ -38,7 +38,7 @@ async def lifespan(app: FastAPI):
     app.state.template_parser = TemplateParser(language=settings.PRIMARY_LANG,
                                                default_language=settings.DEFAULT_LANG)
 
-    # Initialize metrics
+    # Initialize metricsы
     setup_metrics(app)
 
     print("Resources initialized successfully!")
